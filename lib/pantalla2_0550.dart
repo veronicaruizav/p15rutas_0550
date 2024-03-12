@@ -13,8 +13,21 @@ class Pantalla2_0550 extends StatelessWidget {
         backgroundColor: Colors.deepPurpleAccent,
       ),
       body: Center(
-        child: Text(
-          'pantalla2',
+        child: Container(
+          color: Color(0xff8c5db2),
+          width: double.infinity,
+          height: 300,
+          child: Card(
+            color: Color(0xffbcb3d9),
+            margin: EdgeInsets.all(32),
+            child: Padding(
+                padding: EdgeInsets.all(16),
+                child: Center(
+                    child: Text(
+                  "Tarjeta 2 Ruiz",
+                  style: TextStyle(fontSize: 40, color: Color(0xff6b05a8)),
+                ))),
+          ),
         ),
       ),
     );

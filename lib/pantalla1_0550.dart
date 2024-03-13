@@ -10,22 +10,25 @@ class Pantalla1_0550 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text('Pantalla1 Ruiz0550'),
-          backgroundColor: Color(0xff3108ea),
-        ),
-        body: Center(
-          // Simple Card
-          child: const Card(
-            color: Color(0xffa1b8db),
-            child: Padding(
-              padding: EdgeInsets.all(16),
-              child: Text(
-                'Tarjeta Ruiz',
-                style: TextStyle(fontSize: 40, color: Color(0xff0000ff)),
-              ),
-            ),
+      appBar: AppBar(
+        title: Text('Pantalla1 Ruiz0550'),
+        backgroundColor: Color(0xff46016e),
+      ),
+      //------------------------------------
+      body: Center(
+        child: Container(
+          color: Color(0xffa686ba),
+          width: 300,
+          height: 300,
+          padding: EdgeInsets.all(32),
+          margin: EdgeInsets.symmetric(vertical: 16, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Pantalla 1 Veronica Ruiz 0550',
+            style: TextStyle(fontSize: 30),
           ),
-        ));
+        ),
+      ),
+    );
   } //fin widgets
 } //fin pantallla 1
